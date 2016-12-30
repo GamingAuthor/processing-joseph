@@ -3,7 +3,7 @@ size(500,500);
 }
 int coler = 34;
 int y = 50;
-int score = 15;
+int score = 9;
 int wrekt = 450;
 String winningMessage = "You win!";
 int rand = (int) random(500);
@@ -30,7 +30,23 @@ void draw(){
     y++;
     y++;
   }
-  if(score>12){
+  if(score==10){
+    y++;
+  }
+  if(score==11){
+    y++;
+  }
+  if(score==12){
+    y++;
+  }
+  if(score==13){
+    y++;
+    y++;
+    y++;
+    y++;
+    y++;
+  }
+  if(score==14){
     y++;
     y++;
     y++;
